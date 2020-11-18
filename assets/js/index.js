@@ -26,7 +26,6 @@ function getResult(query) {
 }
 
 function displayWeatherResult(weather) {
-    console.log(weather)
     const { temp: temperature, temp_max, temp_min } = weather.main
     const { main, description } = weather.weather[0]
     const city = document.querySelector('.city');
