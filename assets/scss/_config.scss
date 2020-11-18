@@ -1,0 +1,17 @@
+@import "./fonts";
+@import "./variables";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: $primary-font;
+}
+body {
+  background: url("../img/weather-app-bg.jpg") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="id=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>  
+    <link rel="shortcut icon" type="image/png" href="assets/icon/favicon-16x16.png" />
+    <!-- Cascading Stylsheet -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <!-- Main -->
+    <main class="main">
+      <!-- Header -->
+      <header>
+        <div class="search-item active">
+          <div class="search-item__box">
+            <img
+              src="assets/icon/search-location-solid.svg"
+              alt="search-location-icon-svg"
+            />
+          </div>
+          <input
+            type="text"
+            placeholder="Enter City Location..."
+            id="search-box"
+          />
+        </div>
+      </header>
+      <!-- Main Section -->
+      <section class="weather-output">
+        <div class="weather-output__location">
+          <div class="city">Manila, PH</span></div>
+          <div class="date">Monday 16 November 2020</div>
+        </div>
+        <div class="weather-output__current">
+          <div class="temp">15<span>°c</span></div>
+          <div class="weather-type">
+            <h1 class="weather">Sunny</h1>
+            <div class="weather-img-container"></div>
+            <p class="weather-description">Scattered Clouds</p>
+          </div>
+          <div class="high-low">13°c / 16°c</div>
+    
+        </div>
+      </section>
+    </main>
+
+    <!-- Javascript File -->
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+@import "./variables";
+
+.main {
+  .weather-output {
+    display: flex;
+    flex-direction: column;
+    color: $primary-color;
+    &__location {
+      text-align: center;
+      margin: 2em 0 3em 0;
+      .city {
+        font-size: 44px;
+      }
+      .date {
+        font-size: 20px;
+      }
+    }
+    &__current {
+      text-align: center;
+      .temp {
+        font-size: 90px;
+        font-weight: 900;
+      }
+      .weather-type {
+        .weather {
+          font-size: 32px;
+          margin: 1em 0 0 0;
+          font-weight: 700;
+          font-style: italic;
+        }
+        .weather-description{
+          margin: .10em 0 1em;
+        }
+      }
+      .high-low {
+        font-size: 32px;
+        font-weight: 500;
+      }
+    }
+  }
+}
